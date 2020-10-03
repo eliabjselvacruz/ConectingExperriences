@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connecting Experience</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="blue">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo">Connecting Experience</a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#salas">Salas</a></li>
+            <li><a href="#talleres">Talleres</a></li>
+            <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#consejeria">Consejería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#modal1" class="modal-trigger">Perfil <i class="material-icons right">person</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-menu">
+    <li><a href="#inicio">Inicio<i class="material-icons right">home</i></a></li>
+    <li><a href="#salas">Salas<i class="material-icons right">camera_front</i></a></li>
+    <li><a href="#talleres">Talleres<i class="material-icons right">event_available</i></a></li>
+    <li><a href="#juegos">Juegos<i class="material-icons right">games</i></a></li>
+    <li><a href="#consejeria">Consejería<i class="material-icons right">supervisor_account</i></a></li>
+    <li><a href="#contacto">Contacto<i class="material-icons right">email</i></a></li>
+    <li><a href="#modal1" class="modal-trigger">Perfil <i class="material-icons right">person</i></a></li>
+  </ul>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <h4 class="center indigo-text">Registrarse</h4>
+        <div class="row">
+          <form>
+            <div class="input-field col s12 l12">
+              <input type="text" id="primer_nombre" class="validate">
+              <label for="primer_nombre">Nombre</label>
+            </div>
+            <div class="input-field col s12 l12">
+              <input type="text" id="segundo_nombre" class="validate">
+              <label for="segundo_nombre">Apellido</label>
+            </div>
+            <div class="input-field col s12">
+              <input type="email" id="email" class="validate">
+              <label for="email" data-error="Correo Inválido" data-success="Correcto">Email</label>
+            </div>
+            <div class="center">
+              <button class="btn modal-close waves-effect waves-light blue" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="inicio" class="scrollspy">
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="https://cdn.aarp.net/content/dam/aarp/home-and-family/personal-technology/2016/05/1140-mature-adults-learning-how-to-use-laptop-tablet-esp.imgcache.rev8780a6c4d055e865cc8ec24198ab0085.jpg">
+          <div class="caption center-align mr">
+            <h3>¡Registrate ya!</h3>
+            <h5 class="light grey-text text-lighten-3">¡Disfruta de todo el contenido selecionado para tí!</h5>
+            <br>
+            <a href="#modal1" class="modal-trigger waves-effect waves-light btn orange darken-4 white-text">Registrarse<i class="material-icons right">person</i></a>
+          </div>
+        </li>
+        <li>
+          <img src="https://www.etapainfantil.com/wp-content/uploads/2020/06/Padres-ancianos.jpg">
+          <div class="caption center-align mr">
+            <h3>¡Disfruta tu tiempo!</h3>
+            <h5 class="light grey-text text-lighten-3">Uno de los factores claves para disfrutar de una adecuada calidad de vida es ser capaz de
+              utilizar el tiempo libre de una forma agradable y gratificante.
+            </h5>
+            <br>
+            <a class="waves-effect waves-light btn orange darken-4 white-text">Descubre más</a>
+          </div>
+        </li>
+        <li>
+          <img src="https://www.siliconweek.com/wp-content/uploads/2018/03/Abuelos-684x513.jpg">
+          <div class="caption right-align">
+            <h3>Puedes disfrutar con amigos y familia</h3>
+            <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              est..</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="salas" class="scrollspy center">
+    <div class="row">
+      <div class="col s12 m12 l8">
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Cocina<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Cocina<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Decoraciones<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Decoraciones<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ajedrez<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ajedrez<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ejercicios<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ejercicios<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">f<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card z-depth-4">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="http://pablohirsch.com/wp-content/uploads/2017/04/987654.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <section>
+          <div class="card z-depth-4" style="height: 553px;">
+            <div class="container">
+              <h4 class="center blue-text section">Salas</h4>
+              <div class="row">
+                <br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>General</a>
+                </div>
+                <br><br><br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>Privado</a>
+                </div>
+                <br><br><br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>Mensajes</a>
+                </div>
+                <br><br><br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>Llamadas</a>
+                </div>
+                <br><br><br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>Videollamadas</a>
+                </div>
+                <br><br><br>
+                <div class="col s12 m6 l12">
+                  <a class="waves-effect waves-light btn" style="width: 100%;"><i class="material-icons left">cloud</i>Participantes</a>
+                </div>
+                <br><br>
+                <br><br><br>
+              </div>
+            </div>
+          </section>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="talleres" class="scrollspy">
+    <section class="buscar blue-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Buscar Talleres</h3>
+            <div class="input-field">
+              <input class="white grey-text autocomplete" placeholder="Pintura, música, ajedrez..." type="text"
+                id="autocomplete-input">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/travel1.jpg">
+              <span class="card-title">Lugares increíbles</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, assumenda.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/travel1.jpg">
+              <span class="card-title">Lugares increíbles</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, assumenda.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/travel3.jpg">
+              <span class="card-title">Conoce la Naturaleza</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, ullam!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/travel2.jpg">
+              <span class="card-title">Vívelo con tus seres queridos</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, temporibus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center">
+          <a class="btn btn-large blue"><i class="material-icons left">list</i>Ver todos los talleres</a>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+    </div>
+  </section>
+  <section id="contacto" class="scrollspy">
+    <div class="container">
+      <h4 class="center indigo-text">Contacto con nosotros</h4>
+      <div class="row">
+        <form>
+          <div class="input-field col s12 l6">
+            <input type="text" id="primer_nombre" class="validate">
+            <label for="primer_nombre">Nombre</label>
+          </div>
+          <div class="input-field col s12 l6">
+            <input type="text" id="segundo_nombre" class="validate">
+            <label for="segundo_nombre">Apellido</label>
+          </div>
+          <div class="input-field col s12">
+            <input type="email" id="email" class="validate">
+            <label for="email" data-error="Correo Inválido" data-success="Correcto">Email</label>
+          </div>
+          <div class="input-field col s12">
+            <textarea id="mensaje" class="materialize-textarea"></textarea>
+            <label for="mensaje">Mensaje</label>
+          </div>
+          <button class="btn waves-effect waves-light blue" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <footer class="page-footer blue darken-4 valign-wrapper center">
+    <div class="container">
+      <p class="flow-text white-text">&copy; 2020 Connecting Experiences</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  <script>
+    $("document").ready(function () {
+      $('.modal').modal();
+      $(".button-collapse").sideNav();
+      $('.slider').slider({
+        indicators: false,
+        height: 580
+      });
+
+      $('input.autocomplete').autocomplete({
+        data: {
+          "Cancun": null,
+          "Bahamas": null,
+          "Hawaii": null,
+          "Mexico": null,
+          "Bluefields": null
+        },
+        limit: 20,
+        onAutocomplete: function (val) {
+        },
+        minLength: 1,
+      });
+      $('.scrollspy').scrollSpy({
+        scrollOffset: 80,
+      });
+    });
+  </script>
+</body>
+
+</html>
